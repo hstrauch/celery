@@ -12,7 +12,7 @@ def add(x, y):
     ttimes = 1
     while ttimes < 100:
         logger.info(f'Showed {ttimes} times')
-        ttimes + 1
+        ttimes += 1
         time.sleep(10)
     #logger.info(f'Adding {x} + {y}')
     return x + y
